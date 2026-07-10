@@ -1,20 +1,20 @@
 # ── Core data pipeline ────────────────────────────────────────────────────────
-pandas==3.0.3
-numpy==2.4.4
+# pandas<3 required by streamlit==1.46.0 (streamlit upper-bounds at pandas<3)
+pandas==2.2.2
+numpy==2.2.3
 sqlalchemy==2.0.41
 faker==37.4.0
 
 # ── Database drivers ──────────────────────────────────────────────────────────
-# psycopg2-binary: PostgreSQL adapter (used if upgrading from SQLite to Supabase/Railway)
+# psycopg2-binary: PostgreSQL adapter (used if upgrading SQLite → Supabase/Railway)
 psycopg2-binary==2.9.10
 
 # ── Streamlit app + visualizations ────────────────────────────────────────────
 streamlit==1.46.0
 plotly==6.1.2
 
-# ── Notebooks ─────────────────────────────────────────────────────────────────
-jupyter==1.1.1
-ipykernel==6.29.5
-
 # ── Dev / reproducibility ─────────────────────────────────────────────────────
 python-dotenv==1.1.1      # for loading DB credentials from .env
+
+# Note: jupyter + ipykernel omitted here — install separately for local notebook work:
+#   pip install jupyter==1.1.1 ipykernel==6.29.5
