@@ -1,0 +1,41 @@
+# ── Source data — raw only (processed CSVs and DB are committed for deployment) ──
+data/raw/
+
+# ── Power BI binary (binary, not diff-friendly) ───────────────────────────────
+*.pbix
+
+# ── Database — allow the built DB so Streamlit Cloud can use it directly ─────
+# retail_analytics.db is committed intentionally (18 MB, within GitHub limits)
+!retail_analytics.db
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ── Secrets / credentials ─────────────────────────────────────────────────────
+.env
+*.env
+secrets.toml

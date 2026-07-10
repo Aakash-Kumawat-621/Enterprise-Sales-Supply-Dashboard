@@ -1,0 +1,14 @@
+region_id,region_name,market,warehouse_id
+1,Africa,Africa,WH-001
+2,Canada,Canada,WH-002
+3,Caribbean,LATAM,WH-003
+4,Central,LATAM,WH-004
+5,Central Asia,APAC,WH-005
+6,EMEA,EMEA,WH-006
+7,East,US,WH-007
+8,North,EU,WH-008
+9,North Asia,APAC,WH-009
+10,Oceania,APAC,WH-010
+11,South,LATAM,WH-011
+12,Southeast Asia,APAC,WH-012
+13,West,US,WH-013

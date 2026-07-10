@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+  # ── Streamlit Dashboard ──────────────────────────────────────────────────────
+  dashboard:
+    build: .
+    container_name: retail_dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/processed:/app/data/processed:ro   # read-only mount of processed CSVs
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  # ── ETL Runner (one-shot) ────────────────────────────────────────────────────
+  # Run with: docker compose run --rm etl
+  etl:
+    build: .
+    container_name: retail_etl
+    volumes:
+      - ./data/raw:/app/data/raw:ro              # raw source data (read-only)
+      - ./data/processed:/app/data/processed     # write processed outputs here
+    command: >
+      sh -c "
+        python src/clean_transform.py &&
+        python src/augment_data.py &&
+        python src/load_to_db.py &&
+        python src/run_analysis_queries.py
+      "
+    profiles:
+      - etl    # only starts when explicitly requested (docker compose --profile etl up)

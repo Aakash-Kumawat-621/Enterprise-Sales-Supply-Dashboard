@@ -1,0 +1,796 @@
+customer_id,customer_name,customer_segment,signup_date
+1,Toby Braunhardt,Consumer,2011-01-01
+2,Joseph Holt,Consumer,2011-01-01
+3,Annie Thurman,Consumer,2011-01-01
+4,Eugene Moren,Home Office,2011-01-01
+5,Magdelene Morse,Consumer,2011-01-02
+6,Jas O'Carroll,Consumer,2011-01-03
+7,Lindsay Williams,Corporate,2011-01-03
+8,Jack Garza,Consumer,2011-01-03
+9,Nat Gilpin,Corporate,2011-01-03
+10,Kean Nguyen,Corporate,2011-01-03
+11,Chris McAfee,Consumer,2011-01-03
+12,Ken Lonsdale,Consumer,2011-01-03
+13,Larry Blacks,Consumer,2011-01-03
+14,Stewart Visinsky,Consumer,2011-01-03
+15,Dorothy Dickinson,Consumer,2011-01-03
+16,Dennis Pardue,Home Office,2011-01-03
+17,Arthur Wiediger,Home Office,2011-01-04
+18,Jasper Cacioppo,Consumer,2011-01-04
+19,Grant Thornton,Corporate,2011-01-04
+20,Bradley Drucker,Consumer,2011-01-04
+21,Darren Powers,Consumer,2011-01-04
+22,Beth Thompson,Home Office,2011-01-04
+23,Maya Herman,Corporate,2011-01-04
+24,Russell Applegate,Consumer,2011-01-04
+25,Arthur Prichep,Consumer,2011-01-04
+26,Michael Granlund,Home Office,2011-01-05
+27,Phillina Ober,Home Office,2011-01-05
+28,Shaun Weien,Consumer,2011-01-05
+29,Khloe Miller,Consumer,2011-01-06
+30,Mick Brown,Consumer,2011-01-06
+31,Robert Dilbeck,Home Office,2011-01-06
+32,Grace Kelly,Corporate,2011-01-06
+33,Brosina Hoffman,Consumer,2011-01-06
+34,Shahid Hopkins,Consumer,2011-01-06
+35,Maria Etezadi,Home Office,2011-01-07
+36,Adam Bellavance,Home Office,2011-01-07
+37,Harry Marie,Corporate,2011-01-07
+38,Maribeth Schnelling,Consumer,2011-01-07
+39,Jack O'Briant,Corporate,2011-01-07
+40,Alyssa Crouse,Corporate,2011-01-07
+41,Lycoris Saunders,Consumer,2011-01-07
+42,Joy Smith,Consumer,2011-01-07
+43,Dave Poirier,Corporate,2011-01-07
+44,Vivek Sundaresam,Consumer,2011-01-08
+45,Christopher Martinez,Consumer,2011-01-08
+46,Joe Elijah,Consumer,2011-01-08
+47,Sample Company A,Home Office,2011-01-09
+48,Alejandro Grove,Consumer,2011-01-09
+49,Ed Braxton,Corporate,2011-01-09
+50,Dan Lawera,Consumer,2011-01-10
+51,Melanie Seite,Consumer,2011-01-10
+52,Paul MacIntyre,Consumer,2011-01-10
+53,Brian Dahlen,Consumer,2011-01-10
+54,Ricardo Sperren,Corporate,2011-01-10
+55,Elpida Rittenbach,Corporate,2011-01-10
+56,Patrick O'Donnell,Consumer,2011-01-10
+57,Sanjit Jacobs,Home Office,2011-01-10
+58,Tiffany House,Corporate,2011-01-10
+59,Jocasta Rupert,Consumer,2011-01-10
+60,Greg Guthrie,Corporate,2011-01-10
+61,Anthony Jacobs,Corporate,2011-01-11
+62,David Flashing,Consumer,2011-01-11
+63,Eric Murdock,Consumer,2011-01-11
+64,Philip Fox,Consumer,2011-01-11
+65,Steve Carroll,Home Office,2011-01-11
+66,Tanja Norvell,Home Office,2011-01-11
+67,Dianna Vittorini,Consumer,2011-01-11
+68,Roy Collins,Consumer,2011-01-11
+69,Chuck Sachs,Consumer,2011-01-11
+70,Roy Phan,Corporate,2011-01-12
+71,Shaun Chance,Corporate,2011-01-12
+72,Seth Vernon,Consumer,2011-01-12
+73,Peter Bühler,Consumer,2011-01-12
+74,Anthony Garverick,Home Office,2011-01-12
+75,Thomas Seio,Corporate,2011-01-12
+76,Greg Matthias,Consumer,2011-01-13
+77,Cari Sayre,Corporate,2011-01-13
+78,Stuart Calhoun,Consumer,2011-01-13
+79,Roger Demir,Consumer,2011-01-13
+80,Ben Wallace,Consumer,2011-01-13
+81,James Lanier,Home Office,2011-01-13
+82,Bart Pistole,Corporate,2011-01-14
+83,Bruce Degenhardt,Consumer,2011-01-14
+84,Michael Moore,Consumer,2011-01-14
+85,Chris Selesnick,Corporate,2011-01-14
+86,Muhammed Yedwab,Corporate,2011-01-14
+87,Sharelle Roach,Home Office,2011-01-14
+88,Natalie DeCherney,Consumer,2011-01-14
+89,Ted Butterfield,Consumer,2011-01-14
+90,Steve Nguyen,Home Office,2011-01-14
+91,Don Jones,Corporate,2011-01-15
+92,Mick Crebagga,Consumer,2011-01-15
+93,Craig Leslie,Home Office,2011-01-15
+94,Brendan Sweed,Corporate,2011-01-15
+95,Ross Baird,Home Office,2011-01-15
+96,Erica Hackney,Consumer,2011-01-16
+97,Edward Hooks,Corporate,2011-01-17
+98,Delfina Latchford,Consumer,2011-01-17
+99,Vivian Mathis,Consumer,2011-01-17
+100,Tamara Willingham,Home Office,2011-01-17
+101,Shirley Daniels,Home Office,2011-01-17
+102,Beth Paige,Consumer,2011-01-18
+103,Richard Bierner,Consumer,2011-01-18
+104,Michael Dominguez,Corporate,2011-01-18
+105,Charles Sheldon,Corporate,2011-01-18
+106,Vivek Gonzalez,Consumer,2011-01-18
+107,Patrick Gardner,Consumer,2011-01-19
+108,Matt Abelman,Home Office,2011-01-19
+109,Aleksandra Gannaway,Corporate,2011-01-19
+110,Pauline Webber,Corporate,2011-01-19
+111,David Wiener,Corporate,2011-01-19
+112,Ann Blume,Corporate,2011-01-19
+113,Michael Kennedy,Corporate,2011-01-19
+114,Randy Bradley,Consumer,2011-01-20
+115,Toby Swindell,Consumer,2011-01-20
+116,Toby Ritter,Consumer,2011-01-20
+117,Ruben Dartt,Consumer,2011-01-20
+118,Michelle Arnett,Home Office,2011-01-20
+119,Darren Koutras,Consumer,2011-01-20
+120,Alejandro Ballentine,Home Office,2011-01-20
+121,Irene Maddox,Consumer,2011-01-20
+122,Suzanne McNair,Corporate,2011-01-20
+123,Hunter Lopez,Consumer,2011-01-21
+124,Xylona Preis,Consumer,2011-01-21
+125,Mark Van Huff,Consumer,2011-01-21
+126,Muhammed MacIntyre,Corporate,2011-01-21
+127,Sally Hughsby,Corporate,2011-01-21
+128,Darrin Van Huff,Corporate,2011-01-21
+129,Ryan Crowe,Consumer,2011-01-21
+130,Paul Stevenson,Home Office,2011-01-22
+131,Marc Harrigan,Home Office,2011-01-22
+132,Sung Shariari,Consumer,2011-01-22
+133,Brendan Murry,Corporate,2011-01-22
+134,Tom Boeckenhauer,Consumer,2011-01-22
+135,Claudia Bergmann,Corporate,2011-01-22
+136,Michael Paige,Corporate,2011-01-22
+137,Carl Ludwig,Consumer,2011-01-22
+138,Jason Klamczynski,Corporate,2011-01-22
+139,Larry Tron,Consumer,2011-01-23
+140,Corey Roper,Home Office,2011-01-23
+141,Christine Phan,Corporate,2011-01-24
+142,Janet Martin,Consumer,2011-01-24
+143,Speros Goranitis,Consumer,2011-01-24
+144,Mitch Webber,Consumer,2011-01-24
+145,Joni Sundaresam,Home Office,2011-01-24
+146,Greg Hansen,Consumer,2011-01-24
+147,Chuck Clark,Home Office,2011-01-24
+148,Ionia McGrath,Consumer,2011-01-24
+149,Shirley Jackson,Consumer,2011-01-24
+150,Jill Matthias,Consumer,2011-01-24
+151,Lena Creighton,Consumer,2011-01-24
+152,Luke Weiss,Consumer,2011-01-25
+153,Filia McAdams,Corporate,2011-01-25
+154,Gary Hwang,Consumer,2011-01-25
+155,Sue Ann Reed,Consumer,2011-01-25
+156,Frank Olsen,Consumer,2011-01-25
+157,Aimee Bixby,Consumer,2011-01-25
+158,Brad Thomas,Home Office,2011-01-25
+159,Patrick O'Brill,Consumer,2011-01-26
+160,Hunter Glantz,Consumer,2011-01-26
+161,Jay Fein,Consumer,2011-01-26
+162,Alan Shonely,Consumer,2011-01-26
+163,Nat Carroll,Consumer,2011-01-26
+164,Heather Kirkland,Corporate,2011-01-26
+165,Allen Rosenblatt,Corporate,2011-01-26
+166,Nathan Mautz,Home Office,2011-01-26
+167,Anna Andreadi,Consumer,2011-01-26
+168,Christina Anderson,Consumer,2011-01-26
+169,Bradley Talbott,Home Office,2011-01-26
+170,Liz Pelletier,Consumer,2011-01-27
+171,Carol Adams,Corporate,2011-01-27
+172,Barry Weirich,Consumer,2011-01-27
+173,Ryan Akin,Consumer,2011-01-27
+174,Dennis Bolton,Home Office,2011-01-27
+175,Neola Schneider,Consumer,2011-01-27
+176,Todd Sumrall,Corporate,2011-01-27
+177,Ed Jacobs,Consumer,2011-01-28
+178,Herbert Flentye,Consumer,2011-01-28
+179,Nona Balk,Corporate,2011-01-29
+180,Resi Pölking,Consumer,2011-01-29
+181,David Philippe,Consumer,2011-01-30
+182,Arthur Gainer,Consumer,2011-01-30
+183,Harold Engle,Corporate,2011-01-30
+184,Troy Staebel,Consumer,2011-01-31
+185,Mike Vittorini,Consumer,2011-01-31
+186,Damala Kotsonis,Corporate,2011-01-31
+187,Bryan Davis,Consumer,2011-01-31
+188,Brendan Dodson,Home Office,2011-01-31
+189,Sarah Foster,Consumer,2011-01-31
+190,Charles McCrossin,Consumer,2011-01-31
+191,Luke Schmidt,Corporate,2011-01-31
+192,Ralph Ritter,Consumer,2011-02-01
+193,Dave Hallsten,Corporate,2011-02-01
+194,Gene Hale,Corporate,2011-02-01
+195,David Kendrick,Corporate,2011-02-01
+196,Stephanie Phelps,Corporate,2011-02-01
+197,Liz Carlisle,Consumer,2011-02-01
+198,Evan Henry,Consumer,2011-02-02
+199,Lori Olson,Corporate,2011-02-02
+200,Ken Heidel,Corporate,2011-02-02
+201,Erin Smith,Corporate,2011-02-02
+202,Giulietta Dortch,Corporate,2011-02-02
+203,Duane Noonan,Consumer,2011-02-02
+204,Ellis Ballard,Corporate,2011-02-02
+205,Cynthia Delaney,Home Office,2011-02-03
+206,Theresa Swint,Corporate,2011-02-03
+207,Eric Barreto,Consumer,2011-02-03
+208,Max Ludwig,Home Office,2011-02-03
+209,Dean Braden,Consumer,2011-02-03
+210,Tom Stivers,Corporate,2011-02-04
+211,Ann Steele,Home Office,2011-02-04
+212,Christopher Conant,Consumer,2011-02-04
+213,Anthony Witt,Consumer,2011-02-05
+214,Deborah Brumfield,Home Office,2011-02-05
+215,Mark Haberlin,Corporate,2011-02-05
+216,Justin MacKendrick,Consumer,2011-02-06
+217,Neil Ducich,Corporate,2011-02-07
+218,George Bell,Corporate,2011-02-07
+219,Scott Williamson,Consumer,2011-02-07
+220,Susan MacKendrick,Consumer,2011-02-07
+221,Duane Benoit,Consumer,2011-02-07
+222,Liz Thompson,Consumer,2011-02-07
+223,Natalie Webber,Consumer,2011-02-07
+224,Kelly Williams,Consumer,2011-02-08
+225,Julia Barnett,Home Office,2011-02-08
+226,Cyma Kinney,Corporate,2011-02-08
+227,Edward Becker,Corporate,2011-02-08
+228,Daniel Raglin,Home Office,2011-02-09
+229,Hallie Redmond,Home Office,2011-02-09
+230,Erica Hernandez,Home Office,2011-02-09
+231,Clay Ludtke,Consumer,2011-02-09
+232,Tom Prescott,Consumer,2011-02-09
+233,Shui Tom,Consumer,2011-02-09
+234,Yoseph Carroll,Corporate,2011-02-09
+235,Quincy Jones,Corporate,2011-02-10
+236,Philisse Overcash,Home Office,2011-02-10
+237,John Huston,Consumer,2011-02-10
+238,Michelle Ellison,Corporate,2011-02-10
+239,Mary O'Rourke,Consumer,2011-02-10
+240,Jennifer Patt,Corporate,2011-02-10
+241,Paul Lucas,Home Office,2011-02-10
+242,Chad McGuire,Consumer,2011-02-10
+243,Meg O'Connel,Home Office,2011-02-10
+244,Anna Häberlin,Corporate,2011-02-11
+245,Lisa DeCherney,Consumer,2011-02-11
+246,Sung Pak,Corporate,2011-02-11
+247,Guy Armstrong,Consumer,2011-02-12
+248,Natalie Fritzler,Consumer,2011-02-12
+249,Sanjit Chand,Consumer,2011-02-13
+250,Helen Andreada,Consumer,2011-02-14
+251,Katrina Bavinger,Home Office,2011-02-14
+252,Laurel Beltran,Home Office,2011-02-14
+253,Toby Carlisle,Consumer,2011-02-14
+254,Toby Gnade,Consumer,2011-02-14
+255,Trudy Brown,Consumer,2011-02-15
+256,Tracy Poddar,Corporate,2011-02-15
+257,Marina Lichtenstein,Corporate,2011-02-15
+258,Gary Zandusky,Consumer,2011-02-15
+259,Rob Williams,Corporate,2011-02-16
+260,Benjamin Farhat,Home Office,2011-02-16
+261,Barry Französisch,Corporate,2011-02-16
+262,Tracy Zic,Consumer,2011-02-16
+263,Odella Nelson,Corporate,2011-02-16
+264,Matt Hagelstein,Corporate,2011-02-16
+265,Bart Watters,Corporate,2011-02-16
+266,Michael Nguyen,Consumer,2011-02-17
+267,Katrina Willman,Consumer,2011-02-17
+268,Laura Armstrong,Corporate,2011-02-17
+269,Emily Ducich,Home Office,2011-02-17
+270,Michelle Lonsdale,Corporate,2011-02-18
+271,Skye Norling,Home Office,2011-02-18
+272,Daniel Lacy,Consumer,2011-02-18
+273,Jim Radford,Consumer,2011-02-18
+274,Alan Barnes,Consumer,2011-02-18
+275,Aaron Bergman,Consumer,2011-02-19
+276,Troy Blackwell,Consumer,2011-02-19
+277,Zuschuss Donatelli,Consumer,2011-02-21
+278,Linda Cazamias,Corporate,2011-02-21
+279,Steven Roelle,Home Office,2011-02-21
+280,Alice McCarthy,Corporate,2011-02-21
+281,Sarah Jordon,Consumer,2011-02-21
+282,John Lucas,Consumer,2011-02-21
+283,Andrew Roberts,Consumer,2011-02-21
+284,Erin Ashbrook,Corporate,2011-02-21
+285,Liz MacKendrick,Consumer,2011-02-21
+286,Sam Craven,Consumer,2011-02-21
+287,Rick Wilson,Corporate,2011-02-22
+288,Paul Gonzalez,Consumer,2011-02-22
+289,Patricia Hirasaki,Home Office,2011-02-22
+290,Julia Dunbar,Consumer,2011-02-22
+291,Andrew Gjertsen,Corporate,2011-02-22
+292,Sam Zeldin,Home Office,2011-02-22
+293,Tamara Manning,Consumer,2011-02-22
+294,Rick Huthwaite,Home Office,2011-02-22
+295,Mitch Gastineau,Corporate,2011-02-23
+296,Roland Fjeld,Consumer,2011-02-23
+297,Carlos Meador,Consumer,2011-02-23
+298,Michael Grace,Home Office,2011-02-24
+299,Carlos Soltero,Consumer,2011-02-24
+300,Julie Creighton,Corporate,2011-02-24
+301,Christy Brittain,Consumer,2011-02-24
+302,Jim Mitchum,Corporate,2011-02-24
+303,Jennifer Halladay,Consumer,2011-02-25
+304,Rose O'Brian,Consumer,2011-02-25
+305,Emily Grady,Consumer,2011-02-25
+306,Tracy Hopkins,Home Office,2011-02-25
+307,Mike Kennedy,Consumer,2011-02-25
+308,Alan Haines,Corporate,2011-02-26
+309,Lena Cacioppo,Consumer,2011-02-26
+310,Bill Stewart,Corporate,2011-02-26
+311,Bobby Odegard,Consumer,2011-02-26
+312,Rob Lucas,Consumer,2011-02-26
+313,Dennis Kane,Consumer,2011-02-27
+314,Sarah Brown,Consumer,2011-02-28
+315,Ed Ludwig,Home Office,2011-03-01
+316,Logan Haushalter,Consumer,2011-03-01
+317,Shahid Collister,Consumer,2011-03-01
+318,Katherine Hughes,Consumer,2011-03-01
+319,Vicky Freymann,Home Office,2011-03-01
+320,Bryan Spruell,Home Office,2011-03-01
+321,Brian DeCherney,Consumer,2011-03-01
+322,Jeremy Farry,Consumer,2011-03-01
+323,Giulietta Weimer,Consumer,2011-03-01
+324,Dave Brooks,Consumer,2011-03-01
+325,Randy Ferguson,Corporate,2011-03-01
+326,Nicole Hansen,Corporate,2011-03-02
+327,Frank Hawley,Corporate,2011-03-02
+328,Kristina Nunn,Home Office,2011-03-02
+329,Mary Zewe,Corporate,2011-03-02
+330,Roger Barcio,Home Office,2011-03-03
+331,Anne Pryor,Home Office,2011-03-03
+332,Yana Sorensen,Corporate,2011-03-03
+333,Astrea Jones,Consumer,2011-03-03
+334,Cari Schnelling,Consumer,2011-03-03
+335,Chris Cortes,Consumer,2011-03-03
+336,Ashley Jarboe,Consumer,2011-03-03
+337,Thais Sissman,Consumer,2011-03-03
+338,Jill Stevenson,Corporate,2011-03-03
+339,Mitch Willingham,Corporate,2011-03-03
+340,Eva Jacobs,Consumer,2011-03-03
+341,Sandra Flanagan,Consumer,2011-03-03
+342,John Lee,Consumer,2011-03-04
+343,Pierre Wener,Consumer,2011-03-04
+344,Darrin Martin,Consumer,2011-03-04
+345,Brad Eason,Home Office,2011-03-04
+346,Barry Pond,Corporate,2011-03-05
+347,Russell D'Ascenzo,Consumer,2011-03-06
+348,Craig Molinari,Corporate,2011-03-07
+349,Naresj Patel,Consumer,2011-03-07
+350,Maureen Gnade,Consumer,2011-03-07
+351,Nora Pelletier,Home Office,2011-03-07
+352,Joe Kamberova,Consumer,2011-03-08
+353,Maurice Satty,Consumer,2011-03-08
+354,Georgia Rosenberg,Corporate,2011-03-08
+355,Kalyca Meade,Corporate,2011-03-08
+356,Greg Tran,Consumer,2011-03-08
+357,Anna Gayman,Consumer,2011-03-09
+358,Janet Lee,Consumer,2011-03-09
+359,Saphhira Shifley,Corporate,2011-03-09
+360,Becky Castell,Home Office,2011-03-10
+361,Bill Tyler,Corporate,2011-03-10
+362,Tonja Turnell,Home Office,2011-03-10
+363,Katherine Ducich,Consumer,2011-03-10
+364,Kean Thornton,Consumer,2011-03-10
+365,Mark Hamilton,Consumer,2011-03-11
+366,Karen Seio,Corporate,2011-03-11
+367,Chloris Kastensmidt,Consumer,2011-03-11
+368,Neoma Murray,Consumer,2011-03-11
+369,Michelle Moray,Consumer,2011-03-11
+370,Peter McVee,Home Office,2011-03-11
+371,Maureen Fritzler,Corporate,2011-03-11
+372,Stewart Carmichael,Corporate,2011-03-11
+373,Kelly Andreada,Consumer,2011-03-11
+374,Rick Reed,Corporate,2011-03-12
+375,Tom Zandusky,Corporate,2011-03-12
+376,Carlos Daly,Consumer,2011-03-12
+377,Sheri Gordon,Consumer,2011-03-12
+378,Jason Fortune-,Consumer,2011-03-14
+379,Darren Budd,Corporate,2011-03-14
+380,Dean Katz,Corporate,2011-03-14
+381,Rick Bensley,Home Office,2011-03-14
+382,Neil Französisch,Home Office,2011-03-14
+383,Denise Leinenbach,Consumer,2011-03-14
+384,Candace McMahon,Corporate,2011-03-14
+385,Eugene Barchas,Consumer,2011-03-14
+386,Ricardo Emerson,Consumer,2011-03-15
+387,Fred Chung,Corporate,2011-03-15
+388,Dave Kipp,Consumer,2011-03-15
+389,Susan Vittorini,Consumer,2011-03-16
+390,Brian Thompson,Consumer,2011-03-16
+391,Dorris liebe,Corporate,2011-03-16
+392,Peter Fuller,Consumer,2011-03-16
+393,Annie Zypern,Consumer,2011-03-17
+394,Bradley Nguyen,Consumer,2011-03-17
+395,Clay Cheatham,Consumer,2011-03-17
+396,Sean Miller,Home Office,2011-03-18
+397,Chad Sievert,Consumer,2011-03-18
+398,Edward Nazzal,Consumer,2011-03-18
+399,Janet Molinari,Corporate,2011-03-18
+400,Matt Connell,Corporate,2011-03-19
+401,Michael Stewart,Corporate,2011-03-21
+402,Mark Cousins,Corporate,2011-03-21
+403,Gary McGarr,Consumer,2011-03-21
+404,Ralph Kennedy,Consumer,2011-03-21
+405,Kristen Hastings,Corporate,2011-03-21
+406,Aaron Smayling,Corporate,2011-03-21
+407,Cassandra Brandow,Consumer,2011-03-21
+408,Jack Lebron,Consumer,2011-03-21
+409,Alejandro Savely,Corporate,2011-03-21
+410,Cathy Armstrong,Home Office,2011-03-21
+411,Jim Karlsson,Consumer,2011-03-21
+412,Craig Carroll,Consumer,2011-03-22
+413,Beth Fritzler,Corporate,2011-03-22
+414,Carol Darley,Consumer,2011-03-22
+415,Bryan Mills,Consumer,2011-03-22
+416,Julia West,Consumer,2011-03-22
+417,Christine Abelman,Corporate,2011-03-23
+418,Tony Sayre,Consumer,2011-03-23
+419,Bruce Geld,Consumer,2011-03-23
+420,Kean Takahito,Consumer,2011-03-23
+421,Laurel Workman,Corporate,2011-03-24
+422,Thomas Brumley,Home Office,2011-03-25
+423,Valerie Mitchum,Home Office,2011-03-25
+424,Matthew Clasen,Corporate,2011-03-25
+425,Harold Pawlan,Home Office,2011-03-25
+426,Cindy Stewart,Consumer,2011-03-26
+427,Jonathan Doherty,Corporate,2011-03-26
+428,Thea Hendricks,Consumer,2011-03-26
+429,Jamie Frazer,Consumer,2011-03-26
+430,Julie Kriz,Home Office,2011-03-28
+431,Art Foster,Consumer,2011-03-28
+432,Christina VanderZanden,Consumer,2011-03-28
+433,Don Weiss,Consumer,2011-03-28
+434,Lisa Ryan,Corporate,2011-03-28
+435,Mike Pelletier,Home Office,2011-03-28
+436,Ralph Arnett,Consumer,2011-03-28
+437,Scott Cohen,Corporate,2011-03-28
+438,Sean Wendt,Home Office,2011-03-29
+439,Meg Tillman,Consumer,2011-03-29
+440,Justin Hirsh,Consumer,2011-03-29
+441,Mike Gockenbach,Consumer,2011-03-29
+442,Bart Folk,Consumer,2011-03-30
+443,Art Ferguson,Consumer,2011-03-30
+444,Guy Thornton,Consumer,2011-03-30
+445,Kunst Miller,Consumer,2011-03-30
+446,Susan Gilcrest,Corporate,2011-03-30
+447,Joy Bell-,Consumer,2011-03-30
+448,Mark Packer,Home Office,2011-03-30
+449,Alex Russell,Corporate,2011-03-30
+450,Trudy Glocke,Consumer,2011-03-31
+451,Rachel Payne,Corporate,2011-03-31
+452,Alex Avila,Consumer,2011-03-31
+453,Karen Bern,Corporate,2011-03-31
+454,Nathan Gelder,Consumer,2011-03-31
+455,Roland Murray,Consumer,2011-03-31
+456,Lynn Smith,Consumer,2011-04-01
+457,Pete Armstrong,Home Office,2011-04-01
+458,Katharine Harms,Corporate,2011-04-01
+459,Jennifer Braxton,Corporate,2011-04-01
+460,Victoria Pisteka,Corporate,2011-04-01
+461,Benjamin Patterson,Consumer,2011-04-01
+462,Christine Sundaresam,Consumer,2011-04-02
+463,Rob Dowd,Consumer,2011-04-02
+464,Dianna Wilson,Home Office,2011-04-02
+465,Pamela Coakley,Corporate,2011-04-02
+466,Tony Molinari,Consumer,2011-04-02
+467,Emily Burns,Consumer,2011-04-02
+468,Katrina Edelman,Corporate,2011-04-03
+469,Paul Knutson,Home Office,2011-04-04
+470,Ken Black,Corporate,2011-04-04
+471,Bobby Trafton,Consumer,2011-04-04
+472,Dianna Arnett,Home Office,2011-04-04
+473,Liz Preis,Consumer,2011-04-04
+474,Thea Hudgings,Corporate,2011-04-05
+475,Greg Maxwell,Corporate,2011-04-05
+476,Barry Blumstein,Corporate,2011-04-05
+477,Nick Crebassa,Corporate,2011-04-05
+478,John Grady,Corporate,2011-04-05
+479,Adam Shillingsburg,Consumer,2011-04-06
+480,Pauline Chand,Home Office,2011-04-06
+481,Andy Yotov,Corporate,2011-04-06
+482,Guy Phonely,Corporate,2011-04-06
+483,Amy Hunt,Consumer,2011-04-06
+484,Max Engle,Consumer,2011-04-06
+485,Daniel Byrd,Home Office,2011-04-07
+486,Pauline Johnson,Consumer,2011-04-07
+487,Liz Willingham,Consumer,2011-04-07
+488,Roland Schwarz,Corporate,2011-04-07
+489,Jonathan Howell,Consumer,2011-04-08
+490,John Stevenson,Consumer,2011-04-08
+491,Bobby Elias,Consumer,2011-04-08
+492,Cindy Schnelling,Corporate,2011-04-09
+493,Sanjit Engle,Consumer,2011-04-11
+494,Erin Creighton,Consumer,2011-04-11
+495,Jay Kimmel,Consumer,2011-04-11
+496,Berenike Kampe,Consumer,2011-04-11
+497,Gary Mitchum,Home Office,2011-04-11
+498,Brian Derr,Consumer,2011-04-12
+499,Craig Carreira,Consumer,2011-04-13
+500,Duane Huffman,Home Office,2011-04-13
+501,Ben Ferrer,Home Office,2011-04-13
+502,Bill Eplett,Home Office,2011-04-13
+503,Corey-Lock,Consumer,2011-04-14
+504,Lena Radford,Consumer,2011-04-14
+505,Scot Wooten,Consumer,2011-04-14
+506,Maria Zettner,Home Office,2011-04-15
+507,Patrick Ryan,Consumer,2011-04-15
+508,Penelope Sewall,Home Office,2011-04-16
+509,Dan Reichenbach,Corporate,2011-04-18
+510,Nancy Lomonaco,Home Office,2011-04-18
+511,Allen Goldenen,Consumer,2011-04-19
+512,Laurel Elliston,Consumer,2011-04-19
+513,Nicole Fjeld,Home Office,2011-04-19
+514,Darrin Sayre,Home Office,2011-04-19
+515,Stefanie Holloman,Corporate,2011-04-20
+516,Sara Luxemburg,Home Office,2011-04-20
+517,Evan Bailliet,Consumer,2011-04-20
+518,Frank Carlisle,Home Office,2011-04-20
+519,Eric Hoffmann,Consumer,2011-04-21
+520,Allen Armold,Consumer,2011-04-21
+521,Anemone Ratner,Consumer,2011-04-21
+522,Dorothy Badders,Corporate,2011-04-21
+523,Bill Donatelli,Consumer,2011-04-22
+524,Sean O'Donnell,Consumer,2011-04-22
+525,Gary Hansen,Home Office,2011-04-22
+526,Christine Kargatis,Home Office,2011-04-22
+527,Aaron Hawkins,Corporate,2011-04-22
+528,Chuck Magee,Consumer,2011-04-25
+529,Raymond Messe,Consumer,2011-04-25
+530,Barry Franz,Home Office,2011-04-25
+531,Ivan Gibson,Consumer,2011-04-25
+532,Jessica Myrick,Consumer,2011-04-25
+533,David Smith,Corporate,2011-04-25
+534,Fred Wasserman,Corporate,2011-04-25
+535,Linda Southworth,Corporate,2011-04-26
+536,Anthony Rawles,Corporate,2011-04-26
+537,Ted Trevino,Consumer,2011-04-26
+538,Phillip Breyer,Corporate,2011-04-26
+539,Lindsay Castell,Home Office,2011-04-26
+540,Cynthia Voltz,Corporate,2011-04-27
+541,Roy Französisch,Consumer,2011-04-27
+542,Max Jones,Consumer,2011-04-27
+543,Noah Childs,Corporate,2011-04-27
+544,Matt Collister,Corporate,2011-04-27
+545,Andy Reiter,Consumer,2011-04-28
+546,Debra Catini,Consumer,2011-04-28
+547,Heather Jas,Home Office,2011-04-29
+548,Lauren Leatherbury,Consumer,2011-04-29
+549,Harry Greene,Consumer,2011-04-29
+550,Carol Triggs,Consumer,2011-04-29
+551,Eudokia Martin,Corporate,2011-04-29
+552,Brooke Gillingham,Corporate,2011-04-30
+553,Ann Chong,Corporate,2011-04-30
+554,Valerie Dominguez,Consumer,2011-05-02
+555,George Ashbrook,Consumer,2011-05-02
+556,Rick Hansen,Consumer,2011-05-02
+557,Anthony Johnson,Corporate,2011-05-03
+558,Nathan Cano,Consumer,2011-05-03
+559,Cindy Chapman,Consumer,2011-05-03
+560,Anne McFarland,Consumer,2011-05-03
+561,Denny Joy,Corporate,2011-05-04
+562,Bill Shonely,Corporate,2011-05-04
+563,Evan Minnotte,Home Office,2011-05-04
+564,Andrew Allen,Consumer,2011-05-04
+565,Maribeth Yedwab,Corporate,2011-05-05
+566,Patrick Jones,Corporate,2011-05-05
+567,Steve Chapman,Corporate,2011-05-05
+568,Tony Chapman,Home Office,2011-05-06
+569,Craig Yedwab,Corporate,2011-05-06
+570,Tamara Chand,Corporate,2011-05-06
+571,Tracy Blumstein,Consumer,2011-05-07
+572,Sean Braxton,Corporate,2011-05-09
+573,Kelly Lampkin,Corporate,2011-05-09
+574,Tim Taslimi,Corporate,2011-05-09
+575,Pamela Stobb,Consumer,2011-05-10
+576,Arianne Irving,Consumer,2011-05-10
+577,Harold Dahlen,Home Office,2011-05-11
+578,Lela Donovan,Corporate,2011-05-12
+579,Michelle Huthwaite,Consumer,2011-05-13
+580,Lena Hernandez,Consumer,2011-05-13
+581,Eugene Hildebrand,Home Office,2011-05-13
+582,Sandra Glassco,Consumer,2011-05-14
+583,Brian Stugart,Consumer,2011-05-14
+584,Jane Waco,Corporate,2011-05-16
+585,William Brown,Consumer,2011-05-16
+586,Dana Kaydos,Consumer,2011-05-17
+587,Adrian Barton,Consumer,2011-05-18
+588,Alan Schoenberger,Corporate,2011-05-18
+589,Bruce Stewart,Consumer,2011-05-18
+590,Ken Brennan,Corporate,2011-05-18
+591,Maxwell Schwartz,Consumer,2011-05-18
+592,Jennifer Jackson,Consumer,2011-05-18
+593,Erica Smith,Consumer,2011-05-19
+594,Karen Carlisle,Corporate,2011-05-19
+595,Katherine Murray,Home Office,2011-05-19
+596,Tamara Dahlen,Consumer,2011-05-19
+597,Frank Gastineau,Home Office,2011-05-21
+598,Sonia Cooley,Consumer,2011-05-21
+599,Denny Blanton,Consumer,2011-05-22
+600,Doug O'Connell,Consumer,2011-05-24
+601,Frank Atkinson,Corporate,2011-05-25
+602,Dean percer,Home Office,2011-05-26
+603,Lisa Hazard,Consumer,2011-05-27
+604,James Galang,Consumer,2011-05-30
+605,Fred Hopkins,Corporate,2011-05-30
+606,Shahid Shariari,Consumer,2011-05-30
+607,Maribeth Dona,Consumer,2011-05-31
+608,Mike Caudle,Corporate,2011-06-01
+609,Nick Zandusky,Home Office,2011-06-01
+610,Monica Federle,Corporate,2011-06-01
+611,Benjamin Venier,Corporate,2011-06-02
+612,Steven Ward,Corporate,2011-06-02
+613,Caroline Jumper,Consumer,2011-06-02
+614,Becky Martin,Consumer,2011-06-02
+615,Alyssa Tate,Home Office,2011-06-02
+616,Dorothy Wardle,Corporate,2011-06-02
+617,Rob Haberlin,Consumer,2011-06-02
+618,Paul Prost,Home Office,2011-06-03
+619,Robert Waldorf,Consumer,2011-06-03
+620,John Dryer,Consumer,2011-06-03
+621,Richard Eichhorn,Consumer,2011-06-03
+622,Roy Skaria,Home Office,2011-06-03
+623,Steven Cartwright,Consumer,2011-06-03
+624,Raymond Buch,Consumer,2011-06-04
+625,Karl Braun,Consumer,2011-06-05
+626,Charlotte Melton,Consumer,2011-06-06
+627,Sarah Bern,Consumer,2011-06-06
+628,Jamie Kunitz,Consumer,2011-06-06
+629,Anna Chung,Consumer,2011-06-06
+630,Muhammed Lee,Consumer,2011-06-06
+631,Valerie Takahito,Home Office,2011-06-06
+632,Michelle Tran,Home Office,2011-06-07
+633,Nick Radford,Consumer,2011-06-07
+634,Cynthia Arntzen,Consumer,2011-06-07
+635,Todd Boyes,Corporate,2011-06-07
+636,Erica Bern,Corporate,2011-06-07
+637,Jim Sink,Corporate,2011-06-07
+638,Neil Knudson,Home Office,2011-06-07
+639,Stephanie Ulpright,Home Office,2011-06-07
+640,Sung Chung,Consumer,2011-06-07
+641,Rick Duston,Consumer,2011-06-08
+642,Eleni McCrary,Corporate,2011-06-08
+643,Angele Hood,Consumer,2011-06-08
+644,Becky Pak,Consumer,2011-06-08
+645,Jennifer Ferguson,Consumer,2011-06-09
+646,Ivan Liston,Consumer,2011-06-09
+647,Ross DeVincentis,Home Office,2011-06-09
+648,Carl Weiss,Home Office,2011-06-09
+649,Victor Preis,Home Office,2011-06-09
+650,Adam Hart,Corporate,2011-06-10
+651,Joy Daniels,Consumer,2011-06-10
+652,Marc Crier,Consumer,2011-06-10
+653,Cyra Reiten,Home Office,2011-06-11
+654,Jeremy Ellison,Consumer,2011-06-13
+655,Sally Matthias,Consumer,2011-06-13
+656,Keith Dawkins,Corporate,2011-06-14
+657,Joni Wasserman,Consumer,2011-06-14
+658,Kelly Collister,Consumer,2011-06-15
+659,Vivek Grady,Corporate,2011-06-16
+660,Jill Fjeld,Consumer,2011-06-16
+661,Charles Crestani,Consumer,2011-06-17
+662,Lindsay Shagiari,Home Office,2011-06-17
+663,Juliana Krohn,Consumer,2011-06-18
+664,Jeremy Lonsdale,Consumer,2011-06-19
+665,Stefania Perrino,Corporate,2011-06-20
+666,Thomas Thornton,Consumer,2011-06-20
+667,Joseph Airdo,Consumer,2011-06-21
+668,Julie Prescott,Home Office,2011-06-21
+669,Stuart Van,Corporate,2011-06-22
+670,Fred McMath,Consumer,2011-06-22
+671,Scot Coram,Corporate,2011-06-22
+672,Joel Eaton,Consumer,2011-06-22
+673,Deanra Eno,Home Office,2011-06-23
+674,Denny Ordway,Consumer,2011-06-23
+675,Andy Gerbode,Corporate,2011-06-23
+676,Justin Deggeller,Corporate,2011-06-23
+677,MaryBeth Skach,Consumer,2011-06-24
+678,Philip Brown,Consumer,2011-06-24
+679,Christopher Schild,Home Office,2011-06-24
+680,Jason Gross,Corporate,2011-06-25
+681,Noel Staavos,Corporate,2011-06-25
+682,Pete Kriz,Consumer,2011-06-25
+683,Emily Phan,Consumer,2011-06-27
+684,Victoria Brennan,Corporate,2011-06-27
+685,Christina DeMoss,Consumer,2011-06-27
+686,Cathy Prescott,Corporate,2011-06-27
+687,Nicole Brennan,Corporate,2011-06-27
+688,Ruben Ausman,Corporate,2011-06-27
+689,Tom Ashbrook,Home Office,2011-06-28
+690,Frank Preis,Consumer,2011-06-29
+691,George Zrebassa,Corporate,2011-06-29
+692,Dionis Lloyd,Corporate,2011-06-29
+693,Keith Herrera,Consumer,2011-06-29
+694,Sally Knutson,Consumer,2011-06-30
+695,Helen Abelman,Consumer,2011-06-30
+696,Michael Chen,Consumer,2011-07-05
+697,Don Miller,Corporate,2011-07-05
+698,Dan Campbell,Consumer,2011-07-05
+699,Claire Gute,Consumer,2011-07-06
+700,Hilary Holden,Corporate,2011-07-07
+701,Cari MacIntyre,Corporate,2011-07-08
+702,Brian Moss,Corporate,2011-07-09
+703,Deirdre Greer,Corporate,2011-07-09
+704,Dario Medina,Corporate,2011-07-11
+705,Paul Van Hugh,Home Office,2011-07-12
+706,Barbara Fisher,Corporate,2011-07-14
+707,Shirley Schmidt,Home Office,2011-07-14
+708,Victoria Wilson,Corporate,2011-07-15
+709,Craig Reiter,Consumer,2011-07-15
+710,Catherine Glotzbach,Home Office,2011-07-15
+711,Corey Catlett,Corporate,2011-07-16
+712,Maureen Gastineau,Home Office,2011-07-18
+713,Adrian Hane,Home Office,2011-07-18
+714,Doug Bickford,Consumer,2011-07-18
+715,Ritsa Hightower,Consumer,2011-07-19
+716,Patrick Bzostek,Home Office,2011-07-19
+717,Alex Grayson,Consumer,2011-07-20
+718,Erin Mull,Consumer,2011-07-22
+719,Larry Hughes,Consumer,2011-07-23
+720,Gene McClure,Consumer,2011-07-23
+721,Luke Foster,Consumer,2011-07-26
+722,Logan Currie,Consumer,2011-07-27
+723,Mathew Reese,Home Office,2011-07-28
+724,Clytie Kelty,Consumer,2011-07-29
+725,Sonia Sunley,Consumer,2011-08-05
+726,Phillip Flathmann,Consumer,2011-08-05
+727,Mick Hernandez,Home Office,2011-08-06
+728,Corinna Mitchell,Home Office,2011-08-06
+729,Amy Cox,Consumer,2011-08-08
+730,Maria Bertelson,Consumer,2011-08-08
+731,Parhena Norris,Home Office,2011-08-09
+732,Matthew Grinstein,Home Office,2011-08-09
+733,Jesus Ocampo,Home Office,2011-08-09
+734,Henia Zydlo,Consumer,2011-08-10
+735,Elizabeth Moffitt,Corporate,2011-08-10
+736,Thomas Boland,Corporate,2011-08-12
+737,Clay Rozendal,Home Office,2011-08-12
+738,Jeremy Pistek,Consumer,2011-08-12
+739,Alan Hwang,Consumer,2011-08-13
+740,Matt Collins,Consumer,2011-08-15
+741,Henry MacAllister,Consumer,2011-08-15
+742,Alan Dominguez,Home Office,2011-08-16
+743,Sibella Parks,Corporate,2011-08-17
+744,Michael Oakman,Consumer,2011-08-17
+745,Sylvia Foulston,Corporate,2011-08-17
+746,Robert Barroso,Corporate,2011-08-23
+747,Joel Jenkins,Home Office,2011-08-24
+748,Denise Monton,Corporate,2011-08-24
+749,Trudy Schmidt,Consumer,2011-08-25
+750,Tim Brockman,Consumer,2011-08-25
+751,Frank Merwin,Home Office,2011-08-26
+752,Anthony O'Donnell,Corporate,2011-08-30
+753,Nora Preis,Consumer,2011-09-05
+754,Kimberly Carter,Corporate,2011-09-07
+755,Tracy Collins,Home Office,2011-09-08
+756,Susan Pistek,Consumer,2011-09-08
+757,Carl Jackson,Corporate,2011-09-12
+758,Brad Norvell,Corporate,2011-09-12
+759,Pete Takahito,Consumer,2011-09-12
+760,John Castell,Consumer,2011-09-14
+761,Cathy Hwang,Home Office,2011-09-15
+762,Doug Jacobs,Consumer,2011-09-15
+763,Harold Ryan,Corporate,2011-09-15
+764,Joni Blumstein,Consumer,2011-09-16
+765,Jim Kriz,Home Office,2011-09-19
+766,Karen Daniels,Consumer,2011-09-20
+767,Henry Goldwyn,Corporate,2011-09-20
+768,Olvera Toch,Consumer,2011-09-22
+769,Zuschuss Carroll,Consumer,2011-09-23
+770,Helen Wasserman,Corporate,2011-09-23
+771,Ben Peterman,Corporate,2011-09-23
+772,Karen Ferguson,Home Office,2011-09-26
+773,Theresa Coyne,Corporate,2011-09-27
+774,Barry Gonzalez,Consumer,2011-09-27
+775,David Bremer,Corporate,2011-09-30
+776,Jim Epp,Corporate,2011-10-06
+777,John Murray,Consumer,2011-10-07
+778,Rob Beeghly,Consumer,2011-10-12
+779,Justin Ritter,Corporate,2011-10-13
+780,Brenda Bowman,Corporate,2011-10-13
+781,Bill Overfelt,Corporate,2011-10-13
+782,Theone Pippenger,Consumer,2011-10-15
+783,Sean Christensen,Consumer,2011-10-18
+784,Justin Ellison,Corporate,2011-10-19
+785,Ken Dana,Corporate,2011-10-20
+786,Katherine Nockton,Corporate,2011-10-26
+787,Nora Paige,Consumer,2011-10-28
+788,Jenna Caffey,Consumer,2011-10-29
+789,Maris LaWare,Consumer,2011-11-01
+790,Robert Marley,Home Office,2011-11-02
+791,Fred Harton,Consumer,2011-11-02
+792,Chad Cunningham,Home Office,2011-11-15
+793,Adrian Shami,Home Office,2011-11-17
+794,Giulietta Baptist,Consumer,2011-12-08
+795,Eileen Kiefer,Home Office,2012-08-05

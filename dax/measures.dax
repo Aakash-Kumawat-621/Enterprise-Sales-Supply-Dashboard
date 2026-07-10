@@ -1,0 +1,86 @@
+/* 
+=============================================================================
+measures.dax
+Enterprise Retail Sales & Supply Chain Analytics — Phase 6
+=============================================================================
+INSTRUCTIONS:
+1. Open your Power BI Desktop file (.pbix) after importing the 5 CSVs and 
+   wiring the relationships.
+2. Ensure Dim_Date is marked as a Date Table (Table tools -> Mark as Date Table 
+   -> select full_date).
+3. Right-click on Fact_Sales -> New Measure.
+4. Copy and paste each measure below one by one.
+
+NOTE: If your Power BI region uses commas for decimal separators and semicolons 
+for argument separators, you may need to replace commas with semicolons in the 
+DAX formulas.
+============================================================================= 
+*/
+
+
+-- 1. Total Revenue
+-- Depends on: Fact_Sales[net_revenue]
+Total Revenue = 
+SUM(Fact_Sales[net_revenue])
+
+
+-- 2. Total Profit
+-- Depends on: Fact_Sales[profit]
+Total Profit = 
+SUM(Fact_Sales[profit])
+
+
+-- 3. Margin %
+-- Depends on: [Total Profit], [Total Revenue] measures
+-- Format as: Percentage
+Margin % = 
+DIVIDE([Total Profit], [Total Revenue], 0)
+
+
+-- 4. Rolling 30-Day Revenue
+-- Depends on: [Total Revenue], Dim_Date[full_date]
+-- Time-intelligence requires continuous Dim_Date marked as Date Table.
+Rolling 30-Day Revenue = 
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Dim_Date[full_date], MAX(Dim_Date[full_date]), -30, DAY)
+)
+
+
+-- 5. Rolling 90-Day Revenue
+-- Depends on: [Total Revenue], Dim_Date[full_date]
+Rolling 90-Day Revenue = 
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Dim_Date[full_date], MAX(Dim_Date[full_date]), -90, DAY)
+)
+
+
+-- 6. Revenue YoY (Year-over-Year % Growth)
+-- Depends on: [Total Revenue], Dim_Date[full_date]
+-- Format as: Percentage
+Revenue YoY = 
+VAR CurrentRev = [Total Revenue]
+VAR PriorYearRev = 
+    CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Dim_Date[full_date]))
+RETURN 
+    DIVIDE(CurrentRev - PriorYearRev, PriorYearRev, 0)
+
+
+-- 7. Return Rate
+-- Depends on: Fact_Sales[returned_flag]
+-- Format as: Percentage
+-- Note: Fact_Sales[returned_flag] was imported as an integer (1 or 0).
+Return Rate = 
+DIVIDE(
+    CALCULATE(COUNTROWS(Fact_Sales), Fact_Sales[returned_flag] = 1),
+    COUNTROWS(Fact_Sales),
+    0
+)
+
+
+-- 8. Underperformer Flag
+-- Depends on: [Margin %], [Return Rate]
+-- Flags any segment with Margin < 5% AND Return Rate > 15%.
+Underperformer Flag = 
+IF([Margin %] < 0.05 && [Return Rate] > 0.15, "Underperforming", "Healthy")
